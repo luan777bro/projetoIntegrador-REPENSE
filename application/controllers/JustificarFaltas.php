@@ -69,6 +69,6 @@ class JustificarFaltas extends CI_Controller
         $this->load->model('JustificarFaltasModel');
         $this->JustificarFaltasModel->inserir($codusuario, $data, $motivo, $materia);
         $this->session->set_flashdata('msg', "Dados inseridos");
-        redirect('justificarfaltas');
+        redirect('/');
     }
 }
