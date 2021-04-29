@@ -35,8 +35,8 @@
         <table>
             <tr>
                 <th>#</th>
-                <th>Matricula</th>
-                <th>Nome completo</th>
+                <th>Matéria</th>
+                <th>Motivo</th>
             </tr>
             <?php
             foreach ($registros as $r) :
