@@ -29,6 +29,7 @@ class Usuario extends CI_Controller
 
     public function index()
     {
+        $this->validarLogin();
         $this->load->view("home");
     }
 

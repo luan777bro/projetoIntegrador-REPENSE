@@ -17,8 +17,8 @@
             </div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
-                    <li><a href="<?= base_url('justificarfaltas/cadastrar') ?>">Registrar Falta</a></li>
-                    <li><a href="<?= base_url('justificarfaltas/listar') ?>">Historico Faltas</a></li>
+                    <li><a href="<?= base_url('JustificarFaltas/cadastrar') ?>">Registrar Falta</a></li>
+                    <li><a href="<?= base_url('JustificarFaltas/listar') ?>">Historico Faltas</a></li>
                     <li><a href="#">Solicitar Apoio</a></li>
                     <li><a href="<?= base_url('usuario/logout') ?>">Sair</a></li>
                 </ul>
