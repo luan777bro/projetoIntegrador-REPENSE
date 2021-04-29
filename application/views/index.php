@@ -33,19 +33,42 @@
                     <img src="<?= base_url('assets/images/img-01.png'); ?>" alt="IMG">
                 </div>
 
-                <form class="login100-form validate-form">
-                    <span class="login100-form-title">
-                        Login
+
+                <?= form_open('/usuario/autenticar', array('class' => 'login100-form validate-form')) ?>
+                <span class="login100-form-title">
+                    Login
+                </span>
+
+                <div class="wrap-input100" data-validate="Valid email is required: ex@abc.xyz">
+                    <input class="input100" type="text" name="email" placeholder="Matrícula">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
                     </span>
+                </div>
+
+                <div class="wrap-input100" data-validate="Password is required">
+                    <input class="input100" type="password" name="pass" placeholder="Senha">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+                    </span>
+                </div>
+
+                <div class="container-login100-form-btn">
+                    <button class="login100-form-btn">
+                        ENTRAR
+                    </button>
+                </div>
+                <?= form_open(); ?>
 
 
-
-                    <div class="container-login100-form-btn">
-                        <button class="login100-form-btn">
-                            Entrar com SUAP
-                        </button>
-                    </div>
-
+                <div class="text-center p-t-12">
+                    <span class="txt1">
+                        Não tem uma conta?
+                    </span>
+                    <a class="txt2" href="<?= base_url('usuario/cadastrar'); ?>">
+                        Cadastre-se
+                    </a>
+                </div>
                 </form>
             </div>
         </div>
