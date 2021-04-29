@@ -32,7 +32,7 @@
     </nav>
 
     <section class="home">
-        <form id="container" action="JustificarFaltas/salvar_falta" method="POST">
+        <form id="container" action="salvar_falta" method="POST">
             <h1 class="tittle">Registrar falta</h1>
 
             <div>
